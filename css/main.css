@@ -1,0 +1,150 @@
+/* Total width and height of element includes padding and border */
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	outline: 1px solid red !important;
+}
+
+/* Stop these elements spilling out of holder */
+img, embed, object, video {
+	max-width: 100%;
+}
+
+/* Touch targets have minimum 48px */
+nav a, button {
+	padding: 1.5em;
+}
+
+.container {
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+.box {
+	width:100%;
+
+}
+
+.header {
+	display: flex;
+	background-color: #000;
+}
+
+
+.logo {
+	height:100%;
+	width:25%;
+	background-image: url('/images/silver-fern.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.title {
+	height:100%;
+	width:75%;
+}
+
+.title p {
+	font-family: 'Chivo', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-align: right;
+	margin-right: 0.5em;
+	margin-bottom: 0em;
+}
+
+.banner-image {
+	height:150px;
+	background-image: url('/images/corrugated-rust.jpg');
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Chivo', sans-serif;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.projects-holder {
+	display:flex;
+	flex-wrap: wrap;
+	min-height: 200px;
+}
+	
+.project {
+	height:200px;
+}
+
+.footer {
+	height:200px;
+}
+
+/* small screen breakpoint styles */
+@media only screen and (min-width : 300px) and (max-width : 650px) {
+
+	.header {
+		height:50px;
+	}
+	
+	h1 {
+		font-size: 4em;	
+	}
+	
+	.title p {
+		font-size: 0.65em;
+	}
+	
+	.title p.profession {
+		margin-top: 0.5em;
+	}
+	
+}
+
+/* medium screen breakpoint styles */
+@media only screen and (min-width : 651px) and (max-width : 1024px) {
+
+	.header {
+		height:75px;
+	}
+	
+	h1 {
+		font-size: 5em;	
+	}
+	
+	.title p {
+		font-size: 0.75em;
+	}
+	
+	.project {
+		width: 50%;
+	}
+	
+	
+}
+
+/* large screen breakpoint styles */
+@media only screen and (min-width : 1025px) {
+
+	.header {
+		height:100px;
+	}
+	
+	h1 {
+		font-size: 6em;	
+	}
+	
+	.title p {
+		font-size: 0.85em;
+	}
+	
+		.project {
+		width: 33.33%;
+	}
+}
