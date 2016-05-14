@@ -77,14 +77,33 @@ h1 {
 }
 	
 .project {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height:200px;
-	background-image: url('/images/under-construction.svg');
-	background-size: cover;
+}
+
+.under-construction {
+	background-image: url('/images/under-construction.png');
+	background-size: contain;
 	background-repeat: no-repeat;
+	height: 90%;
+	width: 50%;
+	
+	
 }
 
 .footer {
-	height:200px;
+	height:100px;
+	background-color: #000;
+}
+
+.social-links {
+	width: 100%;
+}
+
+.twitter-link {
+	
 }
 
 /* small screen breakpoint styles */
