@@ -200,4 +200,9 @@ h1 {
 	.project {
 		width: 33.33%;
 	}
+	
+	.projects-holder {
+		width: 75%;
+		margin: auto;
+	}
 }
