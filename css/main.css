@@ -8,9 +8,29 @@
 	/*outline: 1px solid red !important;*/
 }
 
+div {
+	display: block;
+}
+
+.testdiv {
+		width:
+}
+
 /* Stop these elements spilling out of holder */
-img, embed, object, video {
+embed, object, video {
 	max-width: 100%;
+	max-height:100%;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height:auto;
+}
+
+picture {
+	max-width: 100%;
+	max-height: 75%;
 }
 
 /* Touch targets have minimum 48px */
@@ -25,6 +45,7 @@ nav a, button {
 	background-color: #fff;
 }
 .box {
+	height: 100%;
 	width: 100%;
 
 }
@@ -74,6 +95,7 @@ h1 {
 	
 .project {
 	display: flex;
+	/**flex-direction: column;**/
 	justify-content: center;
 	align-items: center;
 	height: 200px;
@@ -84,9 +106,7 @@ h1 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 90%;
-	width: 50%;
-	
-	
+	width: 50%;	
 }
 
 .footer {

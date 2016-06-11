@@ -1,0 +1,104 @@
+.container {
+	padding: 0em;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 100%;
+	}
+}
+
+h1 {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	font-size: 5em;
+	text-align: center;
+	
+}
+
+.name, .profession {
+	text-align: right;
+	color: #fff;
+	font-size: 1em;
+}
+
+
+.custom-header {
+	background-color: #000;
+	margin: 0em;
+}
+
+.custom-banner-holder {
+	margin: 0em;
+	border-bottom: 1em solid #000;
+}
+
+.custom-banner {
+	height: 11em;
+	background-image: url('/images/banner-pattern.jpg');
+	padding: 0em;
+}
+
+.project-holder {
+	margin: 0em;
+}
+
+.project-link {
+	font-size: 12px;
+}
+
+[class*="col-"] {
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+}
+
+.footer {
+	background-color: #DFCCC5;
+	margin: 0em;
+}
+
+.footer div {
+	padding: 0.25em;
+}
+
+.logo-link {
+	float: left;
+}	
+
+.logo {
+	display: block;
+	width: 35%;
+	min-width: 2.5em;
+	max-width: 4em;
+	
+}
+
+.modal-project-link {
+	max-width: 2.5em;
+}
+
+.custom-modal-header {
+	background-image: url('/images/banner-pattern.jpg');
+	padding: 0em;
+}
+
+.title-holder {
+	width: 100%;
+	padding-left: 0.5em;
+}
+.custom-modal-title {
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+
+.custom-modal-footer {
+	background-image: url('/images/banner-pattern.jpg');
+}
+
+button.custom-close {
+	color: #fff;
+	opacity: 1;
+	padding-right: 0.5em;
+	padding-top: 0.2em;
+}
