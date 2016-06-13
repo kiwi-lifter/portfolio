@@ -44,6 +44,14 @@ h1 {
 	margin: 0em;
 }
 
+.project-title {
+		position: absolute;
+		background: rgba(0, 0, 0, 0.4);
+		line-height: 100%;
+		color: #fff;
+		padding-left: 10%;
+}
+
 .project-link {
 	font-size: 12px;
 }
@@ -53,12 +61,12 @@ h1 {
 	padding-bottom: 1.25em;
 }
 
-.footer {
+.contact-holder {
 	background-color: #DFCCC5;
 	margin: 0em;
 }
 
-.footer div {
+.contact-holder div {
 	padding: 0.25em;
 }
 
@@ -71,7 +79,6 @@ h1 {
 	width: 35%;
 	min-width: 2.5em;
 	max-width: 4em;
-	
 }
 
 .modal-project-link {
@@ -81,15 +88,19 @@ h1 {
 .custom-modal-header {
 	background-image: url('/images/banner-pattern.jpg');
 	padding: 0em;
+	height: 2.5em;
 }
 
 .title-holder {
+	background: rgba(0, 0, 0, 0.4);
+	height: 100%;
 	width: 100%;
 	padding-left: 0.5em;
 }
 .custom-modal-title {
-	background: rgba(0, 0, 0, 0.4);
+	height: 100%;
 	color: #fff;
+	padding-top: 1%;
 }
 
 .custom-modal-footer {
@@ -100,5 +111,5 @@ button.custom-close {
 	color: #fff;
 	opacity: 1;
 	padding-right: 0.5em;
-	padding-top: 0.2em;
+	padding-top: 0.4em;
 }
