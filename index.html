@@ -10,9 +10,8 @@
 		
 		
 		
-		<link href="css/custom.css" rel="stylesheet">
-		<link href="css/animation.css" rel="stylesheet">	
-		<link href='https://fonts.googleapis.com/css?family=Chivo: 400,900' rel='stylesheet' type='text/css'>
+		<link href="css/custom.css" rel="stylesheet">	
+		<link href='https://fonts.googleapis.com/css?family=Chivo:400,900' rel='stylesheet' type='text/css'>
 		
 		<title>Portfolio</title>
 
@@ -24,8 +23,73 @@
 		
 	</head>
 	<body>
-		<div class="container">
-						
+		<div class="container">	
+			<header class = "row custom-header">
+				<div class="col-xs-6 col-sm-6 col-md-6">	
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<p class="name">garrick mccaskill</p>
+					<p class="profession">front end developer</p>
+				</div>	
+			</header>
+			<div class="row custom-banner-holder">
+				<div class="custom-banner col-xs-12 col-sm-12 col-md-12">
+					<h1>Portfolio</h1>
+				</div>
+			</div>
+			<div class="row contact-holder">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<a href="#" class="logo-link">
+						<img src="images/linkedin-logo.svg" class="logo img-responsive" alt="linkedin link">
+					</a>
+					<a href="#" class="logo-link">	
+						<img src="images/github-logo.svg" class="logo img-responsive" alt="github link">
+					</a>
+					<a href="#" class="logo-link">	
+						<img src="images/twitter-logo.svg" class="logo img-responsive" alt="twitter link">
+					</a>
+					<a href="#" class="logo-link">	
+						<img src="images/youtube-logo.svg" class="logo img-responsive" alt="youtube link">
+					</a>				
+				</div>			
+			</div>
+			<div class="row project-holder">
+				<div class="col-xs-6 col-sm-4 col-md-4">
+					<h2 class="project-title">Project 1</h2>
+					<a href="#project-1-modal" class="project-link" data-toggle="modal">
+						<picture>
+							<source media="(min-width:1200px)" srcset="images/dest/minified_images/examplepic-1025_large_2x.jpg 2x"/>
+							<source media="(min-width:768px)" srcset="images/dest/minified_images/examplepic-700_large_1x.jpg 1x"/>
+							<source media="(min-width:380px)" srcset="images/dest/minified_images/examplepic-320_small.jpg"/>	
+							<img src="images/dest/minified_images/examplepic-320_small.jpg" class="img-responsive" alt="Placeholder image, picture of New York avenue.">
+						</picture>	
+					</a>
+					<p class="caption">Lorem ipsum dolor sit amet, consequat urna fusce<a href="#project-1-modal" class="project-link" data-toggle="modal">...MORE</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4">
+					<h2 class="project-title">Project 2</h2>
+					<a href="#project-2-modal" class="project-link" data-toggle="modal">
+						<picture>		
+							<source media="(min-width:1024px)" srcset="images/dest/minified_images/examplepic-1025_large_2x.jpg 2x"/>
+							<source media="(min-width:650px)" srcset="images/dest/minified_images/examplepic-700_large_1x.jpg 1x"/>					
+							<img src="images/dest/minified_images/examplepic-320_small.jpg" class="img-responsive" alt="Placeholder image, picture of New York avenue.">
+						</picture>
+					</a>
+					<p class="caption">Vel felis elit. Lorem lectus vitae nisl magna leo<a href="#project-2-modal" class="project-link" data-toggle="modal">...MORE</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4">
+					<h2 class="project-title">Project 3</h2>
+					<a href="#project-3-modal" class="project-link" data-toggle="modal">
+						<picture>	
+							<source media="(min-width:1024px)" srcset="images/dest/minified_images/examplepic-1025_large_2x.jpg 2x"/>
+							<source media="(min-width:650px)" srcset="images/dest/minified_images/examplepic-700_large_1x.jpg 1x"/>					
+							<img src="images/dest/minified_images/examplepic-320_small.jpg" class="img-responsive" alt="Placeholder image, picture of New York avenue.">
+						</picture>
+					</a>
+					<p class="caption">Sagittis tincidunt erat. Ut magna elit senectus ullamcorper magna.<a href="#project-3-modal" class="project-link" data-toggle="modal">...MORE</a></p>
+				</div>
+			</div>
+			<footer>GMC Copyright: <script type="text/javascript">document.write(new Date().getFullYear());</script></footer>
 			<!-- Modal HTML -->
 			<div id="project-1-modal" class="modal fade">
 				<div class="modal-dialog">
@@ -33,14 +97,14 @@
 						<div class="modal-header custom-modal-header">
 							<button type="button" class="close custom-close" data-dismiss="modal" aria-hidden="true">&times;</button>
 							<div class="title-holder">
-								<h4 class="modal-title custom-modal-title">Project 1</h4>
+								<h3 class="modal-title custom-modal-title">Project 1</h3>
 							</div>
 						</div>
 						<div class="modal-body">
 							<div class="row">
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<p>Quis commodo ut mollis et viverra mattis molestie phasellus maecenas sed cras. Sagittis tincidunt erat. Ut magna elit senectus ullamcorper magna. Rutrum vestibulum massa. Diam pulvinar pellentesque natoque lacus lectus.</p>
-									<p class="text-warning"><a href="#" class="logo-link"><img src="/images/github-logo.svg" class="modal-project-link img-responsive" alt="github logo image link"></a></p>
+									<p class="text-warning"><a href="#" class="logo-link"><img src="images/github-logo.svg" class="modal-project-link img-responsive" alt="github logo image link"></a></p>
 								</div>
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<picture>					
@@ -64,14 +128,14 @@
 						<div class="modal-header custom-modal-header">
 							<button type="button" class="close custom-close" data-dismiss="modal" aria-hidden="true">&times;</button>
 							<div class="title-holder">
-								<h4 class="modal-title custom-modal-title">Project 2</h4>
+								<h3 class="modal-title custom-modal-title">Project 2</h3>
 							</div>
 						</div>
 						<div class="modal-body">
 							<div class="row">
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<p>Id tortor corrupti sit rutrum tristique at vestibulum in. Cursus eget justo. Metus suspendisse vel. Bibendum luctus leo fermentum posuere hymenaeos. Enim sed ligula in ac massa pede pharetra ullamcorper. Non wisi at justo volutpat mauris. Ante mollis per. Nulla nullam pede cras varius nulla fusce duis dis tristique adipiscing orci. Pretium nunc est. Diam a tristique cursus vitae justo laoreet pulvinar ac. Tincidunt in varius. A lobortis est imperdiet.</p>
-									<p class="text-warning"><a href="#" class="logo-link"><img src="/images/github-logo.svg" class="modal-project-link img-responsive" alt="github logo image link"></a></p>
+									<p class="text-warning"><a href="#" class="logo-link"><img src="images/github-logo.svg" class="modal-project-link img-responsive" alt="github logo image link"></a></p>
 								</div>
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<picture>					
@@ -95,14 +159,14 @@
 						<div class="modal-header custom-modal-header">
 							<button type="button" class="close custom-close" data-dismiss="modal" aria-hidden="true">&times;</button>
 							<div class="title-holder">
-								<h4 class="modal-title custom-modal-title">Project 3</h4>
+								<h3 class="modal-title custom-modal-title">Project 3</h3>
 							</div>
 						</div>
 						<div class="modal-body">
 							<div class="row">
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<p>Sit justo accumsan elementum nibh eleifend ut in suspendisse sed aenean non. Montes enim diam. Vel sodales vel parturient nec suspendisse placerat eget suspendisse. Congue vel id interdum tortor pellentesque. Integer nulla ultrices. Lectus libero tempus. Aliquip magna nulla vivamus aliquam ut commodo integer nam dolore curabitur varius. Dui consectetuer urna venenatis nec vivamus aenean orci ac lacus sapien consectetuer.Platea blandit augue eget ut mauris. Dis fringilla amet. Ullamcorper vestibulum ut. Vitae integer et. Semper ipsum expedita velit erat congue.</p>
-									<p class="text-warning"><a href="#" class="logo-link"><img src="/images/github-logo.svg" class="modal-project-link img-responsive" alt="github logo image link"></a></p>
+									<p class="text-warning"><a href="#" class="logo-link"><img src="images/github-logo.svg" class="modal-project-link img-responsive" alt="github logo image link"></a></p>
 								</div>
 								<div class="col-xs-6 col-sm-6 col-md-6">
 									<picture>					
@@ -122,76 +186,6 @@
 			</div>
 			
 			<!-- end Modal HTML -->
-			
-			<div class = "row custom-header">
-				<div class="col-xs-6 col-sm-6 col-md-6 header-animation">	
-		
-		
-		
-				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6">
-					<p class="name">garrick mccaskill</p>
-					<p class="profession">front end developer</p>
-				</div>	
-			</div>
-			<div class="row custom-banner-holder">
-				<div class="custom-banner col-xs-12 col-sm-12 col-md-12">
-					<h1>Portfolio</h1>
-				</div>
-			</div>
-			<div class="row contact-holder">
-				<div class="col-xs-12 col-sm-12 col-md-12 footer">
-					<a href="#" class="logo-link">
-						<img src="/images/linkedin-logo.svg" class="logo img-responsive" alt="linkedin link">
-					</a>
-					<a href="#" class="logo-link">	
-						<img src="/images/github-logo.svg" class="logo img-responsive" alt="github link">
-					</a>
-					<a href="#" class="logo-link">	
-						<img src="/images/twitter-logo.svg" class="logo img-responsive" alt="twitter link">
-					</a>
-					<a href="#" class="logo-link">	
-						<img src="/images/youtube-logo.svg" class="logo img-responsive" alt="youtube link">
-					</a>				
-				</div>			
-			</div>
-			<div class="row project-holder">
-				<div class="col-xs-6 col-sm-4 col-md-4">
-					<picture>
-						<a href="#project-1-modal" class="project-link" data-toggle="modal"><h2 class="project-title">Project 1</h2></a>
-						<source media="(min-width:1200px)" srcset="images/dest/minified_images/examplepic-1025_large_2x.jpg 2x"/>
-						<source media="(min-width:768px)" srcset="images/dest/minified_images/examplepic-700_large_1x.jpg 1x"/>
-						<source media="(min-width:380px)" srcset="images/dest/minified_images/examplepic-320_small.jpg"/>	
-						<img src="images/dest/minified_images/examplepic-320_small.jpg" class="img-responsive" alt="Placeholder image, picture of New York avenue.">
-						<figcaption class="figure-caption">
-						Lorem ipsum dolor sit amet, consequat urna fusce<a href="#project-1-modal" class="project-link" data-toggle="modal">...MORE</a>
-						</figcaption>
-					</picture>			
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-4">
-					<picture>		
-						<a href="#project-2-modal" class="project-link" data-toggle="modal"><h2 class="project-title">Project 2</h2></a>
-						<source media="(min-width:1024px)" srcset="images/dest/minified_images/examplepic-1025_large_2x.jpg 2x"/>
-						<source media="(min-width:650px)" srcset="images/dest/minified_images/examplepic-700_large_1x.jpg 1x"/>					
-						<img src="images/dest/minified_images/examplepic-320_small.jpg" class="img-responsive" alt="Placeholder image, picture of New York avenue.">
-						<figcaption class="figure-caption">
-						Vel felis elit. Lorem lectus vitae nisl magna leo<a href="#project-2-modal" class="project-link" data-toggle="modal">...MORE</a> 
-						</figcaption>
-					</picture>	
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-4">
-					<picture>	
-						<a href="#project-3-modal" class="project-link" data-toggle="modal"><h2 class="project-title">Project 3</h2></a>
-						<source media="(min-width:1024px)" srcset="images/dest/minified_images/examplepic-1025_large_2x.jpg 2x"/>
-						<source media="(min-width:650px)" srcset="images/dest/minified_images/examplepic-700_large_1x.jpg 1x"/>					
-						<img src="images/dest/minified_images/examplepic-320_small.jpg" class="img-responsive" alt="Placeholder image, picture of New York avenue.">
-						<figcaption class="figure-caption">
-						Sagittis tincidunt erat. Ut magna elit senectus ullamcorper magna.<a href="#project-3-modal" class="project-link" data-toggle="modal">...MORE</a> 
-						</figcaption>
-					</picture>	
-				</div>
-			</div>
-			
 		</div><!-- end .container -->
 		
 		<script src="js/jQuery.js"></script>

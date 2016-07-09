@@ -1,5 +1,5 @@
 .container {
-	padding: 0em;
+	padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -17,7 +17,9 @@ h1 {
 	
 }
 
-.name, .profession {
+/* Header */
+.name, 
+.profession {
 	text-align: right;
 	color: #fff;
 	font-size: 1em;
@@ -26,22 +28,23 @@ h1 {
 
 .custom-header {
 	background-color: #000;
-	margin: 0em;
+	margin: 0;
 }
 
+/* Content */
 .custom-banner-holder {
-	margin: 0em;
+	margin: 0;
 	border-bottom: 1em solid #000;
 }
 
 .custom-banner {
 	height: 11em;
-	background-image: url('/images/banner-pattern.jpg');
-	padding: 0em;
+	background-image: url(../images/banner-pattern.jpg);
+	padding: 0;
 }
 
 .project-holder {
-	margin: 0em;
+	margin: 0;
 }
 
 .project-title {
@@ -56,6 +59,10 @@ h1 {
 	font-size: 12px;
 }
 
+p.caption {
+	font-size: 0.9em;
+}
+
 [class*="col-"] {
 	padding-top: 1.25em;
 	padding-bottom: 1.25em;
@@ -63,10 +70,11 @@ h1 {
 
 .contact-holder {
 	background-color: #DFCCC5;
-	margin: 0em;
+	margin: 0;
+	
 }
 
-.contact-holder div {
+.container.contact-holder{
 	padding: 0.25em;
 }
 
@@ -86,8 +94,8 @@ h1 {
 }
 
 .custom-modal-header {
-	background-image: url('/images/banner-pattern.jpg');
-	padding: 0em;
+	background-image: url(../images/banner-pattern.jpg);
+	padding: 0;
 	height: 2.5em;
 }
 
@@ -100,11 +108,12 @@ h1 {
 .custom-modal-title {
 	height: 100%;
 	color: #fff;
-	padding-top: 1%;
+	padding-bottom: 1%;
+	
 }
 
 .custom-modal-footer {
-	background-image: url('/images/banner-pattern.jpg');
+	background-image: url(../images/banner-pattern.jpg);
 }
 
 button.custom-close {
@@ -112,4 +121,11 @@ button.custom-close {
 	opacity: 1;
 	padding-right: 0.5em;
 	padding-top: 0.4em;
+}
+
+/* Footer */
+footer {
+	padding-right: 1em;
+	font-size: 0.9em;
+	text-align: right;
 }
